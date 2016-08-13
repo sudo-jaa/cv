@@ -1,0 +1,108 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+html, body {
+  padding: 0px;
+  margin: 0px;
+  color: #37424A;
+}
+
+body{
+  padding: 10px;
+  font-family: Courier New, serif;
+  background: url('/cv/img/ignasi_pattern_s.png');
+}
+
+header {
+  background-color: #F2D653;
+  padding: 40px;
+  text-align: center;
+  h1 {
+    color: #37424A;
+    background: none;
+  }
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  text-shadow: 2px 2px 0px white;
+}
+
+.container > * {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px dotted rgba(0, 0, 0, 0.1);
+  padding: 5px 0px;
+  margin-top: 10px;
+  h1:first-child {
+    margin-top: 0px;
+  }
+}
+
+h1 {
+  color: #4ECDC4;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 50px;
+  font-size: 40px;
+}
+
+.post {
+  h2 {
+    margin-bottom: 0px;
+    color: #48455F;
+  }
+  h3 {
+    margin-top: 0px;
+  }
+  &:not(:last-child) {
+    border-bottom: dotted 1px #37424A;
+  }
+}
+
+p {
+  color: #000;
+  margin: 0 auto 12px;
+  padding-bottom: 5px;
+  letter-spacing: 0.015em;
+  line-height: 20px;
+}
+
+small {
+  color: #556270;
+}
+
+small:before {
+  content: '[ ';
+}
+
+small:after {
+  content: ' ]';
+}
+
+ul.skills {
+  list-style: none;
+  padding: 0px;
+  li {
+    float: left;
+    margin-right: 10px;
+    color: #48455F;
+    border: 1px solid #48455F;
+    border-radius: 8px;
+    padding: 5px 11px;
+    margin-bottom: 10px;
+  }
+}
+
+.clearfix {
+  clear: both;
+  padding-bottom: 10px;
+}

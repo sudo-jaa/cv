@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<div class="container">
+
+  <h1>Employment History</h1>
+
+  {% for post in site.categories['employment'] %}
+    <div class="post">
+      <h2>{{ post.employer }}</h2>
+      <h3>
+        {{ post.title }} <small>{{ post.date | date: "%b, %Y" }} - {% if post.to == null %}present{% else %}{{ post.to | date: "%b, %Y" }}{% endif %}</small>
+      </h3>
+      {{ post.content }}
+      <ul class="skills">
+        {% for skill in post.skills %}
+        <li>{{skill}}</li>
+        {% endfor %}
+      </ul>
+      <div class='clearfix'></div>
+    </div>
+  {% endfor %}
+</div>
+<div class="container">
+  <h1>Education</h1>
+
+  {% for post in site.categories['education'] %}
+    <div class="post">
+      <h2>{{ post.institution }}</h2>
+      <h3>
+        {{ post.title }} <small>{{ post.date | date: "%b, %Y" }}</small>
+      </h3>
+      {{ post.content }}
+    </div>
+  {% endfor %}
+
+</div>
