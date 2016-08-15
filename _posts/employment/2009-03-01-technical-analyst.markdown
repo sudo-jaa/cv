@@ -7,10 +7,13 @@ categories: employment
 skills:
 - ActionScript
 - C#
+- Flash
 - Flex
 - MathML
 - MySQL
+- Photoshop
 - PHP
+- Ubuntu
 - XML
 ---
 

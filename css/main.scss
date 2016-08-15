@@ -25,6 +25,27 @@ header {
   }
 }
 
+.links {
+  padding-top: 10px;
+  a, div {
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    text-decoration: none;
+    padding: 4px 8px;
+    margin-right: 5px;
+    line-height: 30px;
+    .symbol {
+      font-size: 30px;
+      margin-right: 4px;
+    }
+    &:hover:not(div) {
+      color: white;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+  }
+}
+
 h1, h2, h3, h4 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
@@ -56,6 +77,7 @@ h1 {
 }
 
 .post {
+  padding-bottom: 20px;
   h2 {
     margin-bottom: 0px;
     color: #48455F;
@@ -104,5 +126,37 @@ ul.skills {
 
 .clearfix {
   clear: both;
-  padding-bottom: 10px;
+}
+
+
+@font-face {
+    font-family: 'Mono Social Icons Font';
+    src: url('/cv/fonts/MonoSocialIconsFont-1.10.eot');
+    src: url('/cv/fonts/MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'),
+         url('/cv/fonts/MonoSocialIconsFont-1.10.woff') format('woff'),
+         url('/cv/fonts/MonoSocialIconsFont-1.10.ttf') format('truetype'),
+         url('/cv/fonts/MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont') format('svg');
+    src: url('/cv/fonts/MonoSocialIconsFont-1.10.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.symbol, a.symbol:before {
+    font-family: 'Mono Social Icons Font';
+    -webkit-text-rendering: optimizeLegibility;
+    -moz-text-rendering: optimizeLegibility;
+    -ms-text-rendering: optimizeLegibility;
+    -o-text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+a.symbol:before {
+    content: attr(title);
+    margin-right: 0.3em;
+    font-size: 130%;
 }
