@@ -159,3 +159,57 @@ a.symbol:before {
     margin-right: 0.3em;
     font-size: 130%;
 }
+
+@media print
+{
+  footer{
+    display: none;
+  }
+  body {
+    background: none;
+    padding: 0px;
+  }
+  header {
+    background-color: #EFF0F1;
+    padding: 0px;
+  }
+  h1 {
+    color: #37424A;
+    font-size: 1.4em;
+    margin-bottom: 5px;
+  }
+  h2 {
+    margin-top: 3px;
+    font-size: 1.2em;
+  }
+  .post {
+    padding: 0px;
+    padding-bottom: 5px;
+    &:not(:last-child) {
+      border-bottom: none;
+    }
+  }
+  .container {
+    background: none;
+    border: none;
+    padding: 0px;
+    margin-top: 0px;
+  }
+  ul.skills {
+    list-style: none;
+    padding: 0px;
+    li {
+      float: left;
+      margin-right: 2px;
+      color: #48455F;
+      border: none;
+      padding: 2px 3px;
+      margin-bottom: 3px;
+    }
+    li:not(:last-child) {
+      &:after {
+        content: ',';
+      }
+    }
+  }
+}
