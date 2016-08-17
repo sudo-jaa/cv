@@ -7,8 +7,10 @@ categories: employment
 skills:
 - AWS
 - Air
+- CentOS
 - Cordova
 - Electron
+- Express
 - Flash
 - Flex
 - Git
@@ -22,6 +24,7 @@ skills:
 - Ruby
 - SAP
 - Selenium
+- Vagrant
 ---
 
 Following my successful management of the *rewrite of MyMaths* I was promoted to manage development across *all of the Education Divisions web platforms*. This included continued support for the MyMaths web service - *internationalisation* and *global rollout* of the platform - and standardised bringing development practices (SCM, TDD, CI) for two other major web applications. I continued the management of my previous team, whilst adding new support staff and extra developers (peaking at 7 full time staff). I also oversaw the *rollout of agile project management methodologies* through the supporting publishing and editorial teams - which **my team had pioneered** within the company.

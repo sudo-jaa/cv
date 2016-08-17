@@ -43,5 +43,17 @@ layout: default
       {{ post.content }}
     </div>
   {% endfor %}
+</div>
+<div class="container">
+  <h1>Personal Projects</h1>
 
+  {% for post in site.categories['projects'] %}
+    <div class="post">
+      <h2>{{ post.title }}</h2>
+      <h3>
+        {{ post.description }}
+      </h3>
+      {{ post.content }}
+    </div>
+  {% endfor %}
 </div>

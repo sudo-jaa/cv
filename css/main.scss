@@ -17,7 +17,7 @@ body{
 
 header {
   background-color: #F2D653;
-  padding: 40px;
+  padding: 20px;
   text-align: center;
   h1 {
     color: #37424A;
@@ -34,9 +34,8 @@ header {
     text-decoration: none;
     padding: 4px 8px;
     margin-right: 5px;
-    line-height: 30px;
+    line-height: 20px;
     .symbol {
-      font-size: 30px;
       margin-right: 4px;
     }
     &:hover:not(div) {
@@ -77,7 +76,7 @@ h1 {
 }
 
 .post {
-  padding-bottom: 20px;
+  padding: 0px 20px 20px;
   h2 {
     margin-bottom: 0px;
     color: #48455F;

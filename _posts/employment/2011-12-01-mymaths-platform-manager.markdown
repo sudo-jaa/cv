@@ -8,6 +8,7 @@ skills:
 - AS3
 - ASP
 - AWS
+- CentOS
 - Flash
 - Javascript
 - Illustrator
@@ -15,11 +16,11 @@ skills:
 - MySQL
 - Photoshop
 - Rails
+- RSpec
 - Ruby
 - SAP
+- SQS
 - SVN
-- Ubuntu
-- Vagrant
 - Windows Server 2003
 ---
 
