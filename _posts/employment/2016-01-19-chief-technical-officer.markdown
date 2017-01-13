@@ -2,7 +2,7 @@
 title:  "Chief Technical Officer"
 employer: "Oxford Learning Solutions"
 date:   2016-01-19 16:53:34 +0100
-to: 2016-11-01 16:53:35 +0100
+to: 2016-10-01 16:53:35 +0100
 categories: employment
 skills:
 - AWS
