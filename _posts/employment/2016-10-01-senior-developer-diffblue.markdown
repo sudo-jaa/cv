@@ -1,7 +1,7 @@
 ---
 title:  "Development Team Lead"
 employer: "DiffBlue"
-date:   2016-10-01 16:53:34 +0100
+date:   2016-10-02 16:53:34 +0100
 categories: employment
 skills:
 - AWS
