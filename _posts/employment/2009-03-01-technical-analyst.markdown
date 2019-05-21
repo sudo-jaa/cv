@@ -17,4 +17,4 @@ skills:
 - XML
 ---
 
-My role was to support the creation of software for the business, and to ensure that 3rd party suppliers were providing a high quality product technically. Many of the projects involved working alongside a project manager to gather and format requirements from stakeholders into a technical spec, as well as managing a technical assistant. One highlight of this role was designing and implementing a 'digital book' product that I exclusively developed in ActionScript 3. This software eventually went on to be used in over 60 products, as well as winning an IDA Award for a product that was produced for the Indian market.
+My first 'serious' development role. Working on many projects, learning ActionScript and PHP as well as running MySQL clusters. One highlight of this role was designing and implementing a 'digital book' product. This software eventually went on to be used in over 60 products, as well as winning an IDA Award for a product that was produced for the Indian market.

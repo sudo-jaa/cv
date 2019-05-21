@@ -9,8 +9,8 @@
 title: Darren Royle ~ Curriculum Vitae
 email: royletron@gmail.com
 description: > # Curriculum Vitae of Darren Royle. Software developer and manager with a decade of experience in delivering applications in many different languages.
-baseurl: "/cv" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://cv.royletron.dev" # the base hostname & protocol for your site
 twitter_username: royletron
 github_username:  royletron
 

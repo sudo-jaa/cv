@@ -12,7 +12,7 @@ html, body {
 body{
   padding: 10px;
   font-family: Courier New, serif;
-  background: url('/cv/img/ignasi_pattern_s.png');
+  background: url('/img/ignasi_pattern_s.png');
 }
 
 header, footer {
@@ -130,12 +130,12 @@ ul.skills {
 
 @font-face {
     font-family: 'Mono Social Icons Font';
-    src: url('/cv/fonts/MonoSocialIconsFont-1.10.eot');
-    src: url('/cv/fonts/MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'),
-         url('/cv/fonts/MonoSocialIconsFont-1.10.woff') format('woff'),
-         url('/cv/fonts/MonoSocialIconsFont-1.10.ttf') format('truetype'),
-         url('/cv/fonts/MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont') format('svg');
-    src: url('/cv/fonts/MonoSocialIconsFont-1.10.ttf') format('truetype');
+    src: url('/fonts/MonoSocialIconsFont-1.10.eot');
+    src: url('/fonts/MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/MonoSocialIconsFont-1.10.woff') format('woff'),
+         url('/fonts/MonoSocialIconsFont-1.10.ttf') format('truetype'),
+         url('/fonts/MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont') format('svg');
+    src: url('/fonts/MonoSocialIconsFont-1.10.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
