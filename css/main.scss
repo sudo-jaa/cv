@@ -16,11 +16,11 @@ body{
 }
 
 header, footer {
-  background-color: #F2D653;
+  background-color: #3895D3;
   padding: 20px;
   text-align: center;
   h1 {
-    color: #37424A;
+    color: "black";
     background: none;
   }
 }
@@ -46,8 +46,8 @@ header, footer {
 }
 
 h1, h2, h3, h4 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
   text-shadow: 2px 2px 0px white;
 }
 
@@ -68,7 +68,7 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  color: #4ECDC4;
+  color: "white";
   text-align: center;
   text-transform: uppercase;
   line-height: 50px;
@@ -170,7 +170,7 @@ a.symbol:before {
     padding: 0px;
   }
   header {
-    background-color: #EFF0F1;
+    background-color: #000000;
     padding: 0px;
   }
   h1 {
